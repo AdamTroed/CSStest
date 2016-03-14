@@ -1,0 +1,32 @@
+﻿* {
+    margin: 0;
+}
+
+.col-3 {
+    width: 25%;
+    display: inline-block;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.innerwrapper {
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+}
+
+.boxHead {
+    border: 2px solid black;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+@media (max-width: 900px) {
+  .col-6 {
+        width: 50%;
+    }
+}
+   
